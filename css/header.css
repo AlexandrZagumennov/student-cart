@@ -1,6 +1,5 @@
 .header {
 	padding: 50px 0;
-	border: 1px solid wheat;
 }
 
 .header__row {
@@ -10,6 +9,7 @@
 .header__title {
 	font-size: 40px;
 	font-weight: 700;
+	color: rgb(181, 181, 182);
 }
 
 @media (max-width: 1024px) {
@@ -23,11 +23,7 @@
 }
 
 @media (max-width: 480px) {
-	.header {
-		padding: 15px 0;
-	}
-
 	.header__title {
-		font-size: 20px;
+		font-size: 22px;
 	}
 }

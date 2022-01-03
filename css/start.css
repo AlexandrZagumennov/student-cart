@@ -12,10 +12,11 @@ html {
 body {
 	min-width: 320px;
 	min-height: 100vh;
-	font-family: 'Roboto', sans-serif;;
+	font-family: 'Roboto', sans-serif;
 	font-size: 16px;
 	font-weight: 400;
-	background-color:  #1B1A1B;
+	background: rgb(0,0,2);
+	background: linear-gradient(90deg, rgba(0,0,2,1) 0%, rgba(0,0,41,0.87) 92%);
 	color:#fff;
 }
 
@@ -76,6 +77,27 @@ iframe {
 }
 
 section {
-	padding-bottom: 100px;
+	padding: 50px 0;
 }
 
+.section-title {
+	font-size: 30px;
+	font-weight: 700;
+	color: rgb(181, 181, 182);
+}
+
+@media (max-width: 768px) {
+	section {
+		padding: 30px 0;
+	}
+}
+
+@media (max-width: 480px) {
+	section {
+		padding: 20px 0;
+	}
+
+	.section-title {
+		font-size: 22px;
+	}
+}
