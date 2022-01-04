@@ -22,3 +22,9 @@
 		padding: 2px 0;
 	}
 }
+
+@media (max-width: 480px) {
+	.timetable__row {
+		margin-bottom: 20px;
+	}
+}
