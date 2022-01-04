@@ -1,0 +1,24 @@
+.timetable__row {
+	text-align: center;
+	margin-bottom: 40px;
+}
+
+.timtable__table {
+	width: 320px;
+	margin: 0 auto;
+}
+
+.timtable__table td {
+	padding: 5px 0;
+}
+
+@media (max-width: 768px) {
+	.timtable__table {
+		width: 200px;
+		font-size: 14px;
+	}
+
+	.timtable__table td {
+		padding: 2px 0;
+	}
+}
