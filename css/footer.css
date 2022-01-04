@@ -1,0 +1,70 @@
+.footer {
+	padding-bottom: 40px;
+}
+
+.footer__row {
+	text-align: center;
+	margin-bottom: 40px;
+}
+
+.footer__contacts{
+	max-width: 50%;
+	margin: 0 auto;
+	display: flex;
+	justify-content: space-between;
+} 
+
+.footer__contacts-item{
+	width: 80px;
+	height: 80px;
+	transition: all .3s ease;
+}
+
+.footer__contacts-item:hover {
+	transform: scale(.8);
+}
+
+.footer__contacts-item a{
+	display: block;
+	height: 100%;
+}
+
+.footer__contacts-item_telegram{
+	background: url(../img/icons/telegram.svg) 0 0/contain no-repeat;
+}
+
+.footer__contacts-item_instagram{
+	background: url(../img/icons/instagam.svg) 0 0/contain no-repeat;
+}
+
+.footer__contacts-item_vkontakte{
+	background: url(../img/icons/vk.svg) 0 0/contain no-repeat;
+}
+
+.footer__contacts-item_github{
+	background: url(../img/icons//github.svg) 0 0/contain no-repeat;
+}
+
+@media (max-width: 1024px) {
+	.footer__contacts {
+		min-width: 70%;
+	}
+}
+
+@media (max-width: 768px) {
+	.footer__contacts-item{
+		width: 60px;
+		height: 60px;
+	}
+}
+
+@media (max-width: 480px) {
+	.footer__contacts {
+		min-width: 85%;
+	}
+
+	.footer__contacts-item{
+		width: 50px;
+		height: 50px;
+	}
+}
